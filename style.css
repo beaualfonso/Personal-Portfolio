@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+#header{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(3px);
+}
+
+#header-text{
+    color: gray;
+    margin: 0;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: "headerFont";
+}
+
+#container{
+    display: flex;
+    flex: column;
+    z-index: 900;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+}
+
+#self-picture{
+    display: block;
+    height: 650px;
+    width: 550px;
+    position: relative;
+    margin-top: 130px;
+    margin-left: 120px;
+    border-radius: 550px;
+    border: 3px solid white;
+}
+
+#name-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 320px;
+    margin-left: 130px;
+    font-family: "milker";
+}
+
+#name-home{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+
+#name-summary{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "milker";
+    src: url("font/Milker.otf");
+}
+
+@font-face {
+    font-family: "headerFont";
+    src: url("font/LeagueSpartan-Bold.otf");
+}
