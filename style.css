@@ -143,16 +143,18 @@ body{
     border-radius: 20px;
     margin-left: 160px;
     display: none;
+    width: 300px;
+    height: 100px;
 }
 
 #skills-content{
     color: white;
-    margin-top: 10px;
     font-family: "headerFont";
+    margin-top: 1px;
 }
 
 #skills-img{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 100px;
     margin-right: 10px;
     height: 75px;
@@ -168,6 +170,9 @@ body{
     padding: 20px;
     border-radius: 20px;
     margin-left: 160px;
+    width: 300px;
+    height: 100px;
+    display: none;
 }
 
 #experience-content{
@@ -175,6 +180,25 @@ body{
     font-family: "headerFont";
     margin-top: 1px;
     margin-bottom: 1px;
+}
+
+#education-container{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgba(59, 59, 59, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 160px;   
+    width: 300px;
+    height: 120px;
+    display: none;
+}
+
+#education-content{
+    color: white;
+    font-family: "headerFont";
+    margin-top: 1px;
+    margin-bottom: 1px;    
 }
 
 @font-face {
@@ -193,5 +217,5 @@ body{
     scale: 1.1;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
