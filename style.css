@@ -141,7 +141,7 @@ body{
     background-color:  rgba(59, 59, 59, 0.5);
     padding: 20px;
     border-radius: 20px;
-    margin-left: 160px;
+    margin-left: 150px;
     display: none;
     width: 300px;
     height: 100px;
@@ -169,7 +169,7 @@ body{
     background-color:  rgba(59, 59, 59, 0.5);
     padding: 20px;
     border-radius: 20px;
-    margin-left: 160px;
+    margin-left: 150px;
     width: 300px;
     height: 100px;
     display: none;
@@ -188,7 +188,7 @@ body{
     background-color:  rgba(59, 59, 59, 0.5);
     padding: 20px;
     border-radius: 20px;
-    margin-left: 160px;   
+    margin-left: 150px;   
     width: 300px;
     height: 100px;
     display: none;
@@ -199,6 +199,50 @@ body{
     font-family: "headerFont";
     margin-top: 1px;
     margin-bottom: 1px;    
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-title{
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: "milker";
+    margin-bottom: 0;   
+}
+
+#project-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#projects-all{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(102, 102, 102);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#project-title{
+    text-align: center;
+    font-family: "headerFont";
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 20px;
+    
 }
 
 @font-face {
@@ -218,4 +262,9 @@ body{
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     transition: 0.5s ease;
+}
+
+#projects-all:hover{
+    transform: scale(1.05);
+    background-color: rgb(67, 60, 60);
 }
