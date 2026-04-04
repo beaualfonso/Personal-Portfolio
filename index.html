@@ -10,68 +10,74 @@
     </head>
 
     <!-- Header content/ name, tabs, dark/light mode switch-->
+    <body>
+        <header id="header">
+            <h1 id="header-text">Beau.</h1>
+        </header>
 
-    <header id="header">
-        <h1 id="header-text">Beau.</h1>
-    </header>
+        <!--Main content container; home, about me, projects, contact-->
 
-    <!--Main content container; home, about me, projects, contact-->
+        <div id="container">
+            <div id="home">
+                <img id="self-picture" src="media/beau-alfonso.jpeg">
+                <div id="name-text">
+                    <h2 id="name-home">Beau-Patrick</br>Alfonso</h2>
+                    <h3 id="name-summary">Computer Science Student</br>Aspiring Software Developer</h3>
+                </div>
+            </div>
 
-    <div id="container">
-        <div id="home">
-            <img id="self-picture" src="media/beau-alfonso.jpeg">
-            <div id="name-text">
-                <h2 id="name-home">Beau-Patrick</br>Alfonso</h2>
-                <h3 id="name-summary">Computer Science Student</br>Aspiring Software Developer</h3>
+            <div id="about-me">
+                <div id="about-me-container">
+                    <h3 id="about-me-header"> About Me</h3>
+                    <div id="skills-tab" onclick="showSkills()">Skills</div>
+                    <div id="experience-tab" onclick="showExperience()">Experience</div>
+                    <div id="education-tab" onclick="showEducation()">Education</div>
+                </div>
+                <div id="about-me-info">
+                    <p id="about-me-content">
+                        Hello, my name is Beau-Patrick Alfonso. 
+                        I am a Computer Science student at the University of South Florida with a growing interest
+                        in software development and building projects through hands-on learning. I enjoy strengthening 
+                        my programming and problem-solving skills while continuing to explore different areas of computer science.
+                    </p>
+                    <div id="skills-container">
+                        <p id="skills-content">
+                            > Javascript<br>
+                            > Python<br> 
+                            > C++<br> 
+                            > C<br> 
+                            > HTML/CSS
+                        </p>
+                        <img src="media/coding_icon.png" id="skills-img">
+                    </div>
+                    <div id="experience-container">
+                        <p id="experience-content">
+                            Cashier | West Marine<br>
+                            2023<br><br>
+                            Customer Service Staff | Publix<br>
+                            2024-Present
+                        </p>
+                    </div>
+                    <div id="education-container">
+                        <p id="education-content">
+                            St. Petersburg College <br>| Associates in Arts<br><br>
+                            University of South Florida <br>| B.S. in Computer Science
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projects">
+
+            </div>
+
+            <div id="contact">
+
             </div>
         </div>
 
-        <div id="about-me">
-            <div id="about-me-container">
-                <h3 id="about-me-header"> About Me</h3>
-                <div id="skills-tab" onclick="showSkills()">Skills</div>
-                <div id="experience-tab" onclick="showExperience()">Experience</div>
-                <div id="education-tab" onclick="showEducation()">Education</div>
-            </div>
-            <div id="about-me-info">
-                <p id="about-me-content">
-                    Hello, my name is Beau-Patrick Alfonso. 
-                    I am a Computer Science student at the University of South Florida with a growing interest
-                    in software development and building projects through hands-on learning. I enjoy strengthening 
-                    my programming and problem-solving skills while continuing to explore different areas of computer science.
-                </p>
-                <div id="skills-container">
-                     <p id="skills-content">
-                        > Javascript<br> > Python<br> > C++<br> > C<br> > HTML/CSS
-                    </p>
-                    <img src="media/coding_icon.png" id="skills-img">
-                </div>
-                <div id="experience-container">
-                    <p id="experience-content">
-                        Cashier | West Marine<br>2023<br><br>
-                        Customer Service Staff | Publix<br>2024-Present
-                    </p>
-                </div>
-                <div id="education-container">
-                    <p id="education-content">
-                        St. Petersburg College <br>| Associates in Arts<br><br>
-                        University of South Florida <br>| Computer Science<br>| Bachelors of Science
-                    </p>
-                </div>
-            </div>
-        </div>
+        <!-- Linking js code to html-->
 
-        <div id="projects">
-
-        </div>
-
-        <div id="contact">
-
-        </div>
-    </div>
-
-    <!-- Linking js code to html-->
-
-    <script src="script.js"></script>
-
+        <script src="script.js"></script>
+    </body>
 </html>
