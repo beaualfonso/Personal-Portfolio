@@ -350,9 +350,9 @@ body{
 }
 
 #phone{
-    transition: 0.2 ease;
     display: flex;
     flex-direction: column;
+    transition: 0.2s ease;
 }
 
 #phone-picture{
