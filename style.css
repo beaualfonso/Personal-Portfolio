@@ -219,7 +219,8 @@ body{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 #projects-all{
@@ -232,6 +233,7 @@ body{
     margin-top: 20px;
     margin-left: 20px;
     padding: 20px;
+    transition: 0.2s ease-out;
 }
 
 #project-title{
@@ -239,10 +241,32 @@ body{
     font-family: "headerFont";
     font-size: 20px;
     margin-top: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
     padding: 10px;
     border-radius: 20px;
-    
+    margin-bottom: 0;
+}
+
+#project-image{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#project-link{
+    text-align: center;
+    margin-top: 40px;
+    font-family: "headerFont";
+    color: black;
+}
+
+#contact-title{
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-family: "milker";
+    margin-bottom: 500px; 
 }
 
 @font-face {
@@ -264,7 +288,15 @@ body{
     transition: 0.5s ease;
 }
 
+.active-tab{
+    scale: 1.1;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    transition: 0.4s ease-out;
+}
+
 #projects-all:hover{
     transform: scale(1.05);
-    background-color: rgb(67, 60, 60);
+    background-color: rgb(200, 200, 200);
+    transition: .2s ease-in;
 }

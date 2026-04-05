@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Portfolio</title>
+        <link rel="icon" type="img/png" src="media/coding_icon.png">
     </head>
 
     <!-- Header content/ name, tabs, dark/light mode switch-->
@@ -26,10 +27,11 @@
                 </div>
             </div>
 
+            <!-- About me section -->
             <div id="about-me">
                 <div id="about-me-container">
                     <h3 id="about-me-header"> About Me</h3>
-                    <div id="skills-tab" onclick="showSkills()">Skills</div>
+                    <div class="active-tab" id="skills-tab" onclick="showSkills()">Skills</div>
                     <div id="experience-tab" onclick="showExperience()">Experience</div>
                     <div id="education-tab" onclick="showEducation()">Education</div>
                 </div>
@@ -67,26 +69,36 @@
                 </div>
             </div>
 
+            <!--Projects section-->
             <div id="projects">
                 <h4 id="projects-title">Projects</h4>
                 <div id="project-container">
                     <div id="projects-all">
                         <h5 id="project-title">Notes Web App</h5>
+                        <img src="media/notes-icon.png" id="project-image">
+                        <a href="https://github.com/beaualfonso/Notes-web-app" id="project-link" target="_blank">View Project</a>
                     </div>
                     <div id="projects-all">
                         <h6 id="project-title">Cookie Clicker Game</h6>
+                        <img src="media/cookie-icon.png" id="project-image">
+                        <a href="https://github.com/beaualfonso/Panda_cookie_game" id="project-link" target="_blank">View Project</a>
                     </div>
                     <div id="projects-all">
                         <h7 id="project-title">Task List</h7>
+                        <img src="media/task-icon.png" id="project-image">
+                        <a href="https://github.com/beaualfonso/To-Do_List" id="project-link" target="_blank">View Project</a>
                     </div>
                     <div id="projects-all">
                         <h8 id="project-title">Impossible Quiz</h8>
+                        <img src="media/impossible-icon.png" id="project-image">
+                        <a href="https://github.com/beaualfonso/Impossible-Quiz" id="project-link" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
 
+            <!-- Contact Section-->
             <div id="contact">
-
+                <h2 id="contact-title">Contact Me</h2>
             </div>
         </div>
 
